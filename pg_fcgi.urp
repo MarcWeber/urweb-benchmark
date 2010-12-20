@@ -1,0 +1,4 @@
+database dbname=simple_table
+sql main_pg.sql
+prefix /fcgid/pg_fcgi.fcgi
+library st

@@ -1,0 +1,3 @@
+database dbname=simple_table
+sql main_pg.sql
+library st

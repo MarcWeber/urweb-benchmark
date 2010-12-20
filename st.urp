@@ -1,0 +1,11 @@
+prefix /
+rewrite style Css/quote quote
+deny url http://en.wikipedia.org/wiki/PHP
+allow url http://en.wikipedia.org/wiki/*
+allow url http://adam.chlipala.net/style.css
+allow mime text/plain
+allow mime image/png
+allow mime image/gif
+
+$/list
+st
